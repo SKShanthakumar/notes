@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Notes</h1>
+    </div>
+    <div class="container"></div>
+    <button class="add-button">+</button>
+    <div class="overlay"></div>
+    <div class="popup">
+        <h2>Add new note</h2>
+        <form>
+            <input type="text" placeholder="Title" id="title-input">
+            <input type="text" placeholder="Time" id="time-input">
+            <textarea placeholder="Decription" id="desc-input"></textarea>
+            <button id="add-note">ADD</button>
+            <button id="close-popup">CANCEL</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
